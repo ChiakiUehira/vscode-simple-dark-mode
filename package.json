@@ -1,0 +1,40 @@
+{
+    "name": "simple-dark",
+    "displayName": "SIMPLE DARK",
+    "description": "dark theme for vscode",
+    "version": "0.9.2",
+    "publisher": "in-the-box",
+    "author": {
+        "name": "in-the-box",
+        "email": "c.uehira@pixelgram.jp"
+    },
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "galleryBanner": {
+        "color": "#222426",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/in-the-box/vscode-simple-dark"
+    },
+    "icon": "assets/icon.png",
+    "markdown": "github",
+    "keywords": [
+        "simple",
+        "dark"
+      ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "SIMPLE DARK",
+                "uiTheme": "vs-dark",
+                "path": "./themes/theme.json"
+            }
+        ]
+    }
+}
