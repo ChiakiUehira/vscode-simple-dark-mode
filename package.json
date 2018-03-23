@@ -1,8 +1,8 @@
 {
-    "name": "simple-dark",
-    "displayName": "SIMPLE DARK",
-    "description": "dark theme for vscode",
-    "version": "0.9.3",
+    "name": "simple-dark-mode",
+    "displayName": "SIMPLE DARK MODE",
+    "description": "dark mode for vscode",
+    "version": "0.9.4",
     "publisher": "in-the-box",
     "author": {
         "name": "in-the-box",
@@ -17,7 +17,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/in-the-box/vscode-simple-dark"
+        "url": "https://github.com/in-the-box/vscode-simple-dark-mode"
     },
     "icon": "assets/icon.png",
     "markdown": "github",
@@ -31,7 +31,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "SIMPLE DARK",
+                "label": "SIMPLE DARK MODE",
                 "uiTheme": "vs-dark",
                 "path": "./themes/theme.json"
             }
